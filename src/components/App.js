@@ -7,10 +7,9 @@ class App extends Component {
   render() {
     return (
       <div>
-      yup!
-      <Link to='/'>Home</Link>
-      <Link to='/users'>Users</Link>
-      { router }
+        <Link to='/'>Home</Link>
+        <Link to='/users'>Users</Link>
+        { router }
       </div>
     );
   }
